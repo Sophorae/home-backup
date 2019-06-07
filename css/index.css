@@ -1,0 +1,505 @@
+@charset "utf-8";
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+/* 广告列表 start */
+.home-ad-con {
+    width: 100%;
+    height: 50px;
+    padding: 11px 0 10px;
+}
+.home-ad-con .home-ad-list {
+    margin: 0 auto;
+    width: 1198px;
+    height: 48px;
+    border: 1px solid #f5f5f5;
+    background-image: url(../image/iautos_header_brand@2x.png);
+    background-image: url(../image/iautos_header_brand@1x.png) \9;
+    background-image: url(../image/iautos_header_brand@2x.png) \9\0;
+    background-repeat: no-repeat;
+    background-size: 1204px 50px;
+}
+.home-ad-con .home-ad-list li {
+    float: left;
+    width: 171px;
+    height: 48px;
+}
+.home-ad-con .home-ad-list li a {
+    float: left;
+    width: 171px;
+    height: 48px;
+}
+.home-ad-con .home-ad-list li:last-child {
+    position: relative;
+    width: 172px;
+}
+.home-ad-con .home-ad-list li:last-child span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 24px;
+    height: 12px;
+    font-size: 10px;
+    color: #D2D2D2;
+    text-align: center;
+    line-height: 12px;
+    background: #F5F5F5;
+}
+.home-nav-con {
+    width: 100%;
+}
+.home-nav-con .home-nav {
+    margin: 0 auto;
+    width: 1200px;
+}
+/* 广告列表 end */
+
+/* 条件选择 start */
+.home-nav-con .home-nav .home-conditional-select-box {
+    position: relative;
+    float: left;
+    width: 260px;
+    height: 500px;
+    background: #F7F7F7;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-select-box-hover {
+    position: relative;
+    padding-left: 18px;
+    border: 1px solid #EAEAEA;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-select-box-hover .home-conditional-select-type {
+    padding-top: 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-select-box-hover:hover .home-conditional-select-type {
+    border-bottom: 1px solid transparent;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-select-box-hover .home-conditional-select-type > p {
+    position: relative;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3b3b3b;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-select-box-hover .home-conditional-select-type > div {
+    margin-top: 8px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-select-box-hover .home-conditional-select-type > div  a {
+    float: left;
+    margin: 0 16px 8px 0;
+    line-height: 20px;
+    height: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-select-box-hover .home-conditional-select-type > div  a:hover {
+    color: #F29600;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 7px;
+    height: 135px;
+    border-bottom: none;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box:hover {
+    border-right: none;
+    border-bottom: 1px solid #EAEAEA;
+    background: #ffffff;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-brand-select-content {
+    height: 123px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-brand-select-content p > .home-brand-page-link {
+    position: absolute;
+    left: 187px;
+    width: 34px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #666666;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-brand-select-content p > .home-brand-page-link span {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 4px;
+    height: 4px;
+    border-top: 1px solid #666666;
+    border-right: 1px solid #666666;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+}
+
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-all-brand-list {
+    display: none;
+    position: absolute;
+    left: 259px;
+    top: -1px;
+    padding: 28px 0 0 31px;
+    width: 908px;
+    height: 470px;
+    border: 1px solid #EAEAEA;
+    border-left: none;
+    background: #ffffff;
+    z-index: 10;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box:hover .home-all-brand-list {
+    display: block;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-all-brand-list > ul {
+    float: left;
+    width: 300px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-all-brand-list > ul > li {
+    margin-bottom: 15px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-all-brand-list > ul > li > span {
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #F29718;
+    line-height: 17px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-all-brand-list > ul > li > ul {
+    float: left;
+    width: 246px;
+    line-height: 17px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-all-brand-list > ul > li > ul > li {
+    float: left;
+    margin: 0 16px 7px 0;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-all-brand-list > ul > li > ul > li a {
+    float: left;
+    font-size: 12px;
+    color: #333333;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-brand-select-box .home-all-brand-list > ul > li > ul > li a:hover {
+    color: #F29600;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 355px ;
+    border: 1px solid #EAEAEA;
+    border-top: none;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box:hover {
+    border-right: none;
+    border-top: 1px solid #EAEAEA;
+    background: #ffffff;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-all-other-list {
+    display: none;
+    position: absolute;
+    left: 259px;
+    top: -1px;
+    padding: 26px 0 0 32px;
+    width: 627px;
+    height: 329px;
+    border: 1px solid #EAEAEA;
+    border-left: none;
+    background: #ffffff;
+    z-index: 10;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box:hover .home-all-other-list {
+    display: block;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-all-other-list > ul > li {
+    margin-bottom: 36px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-all-other-list > ul > li > p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F29718;
+    margin-bottom: 9px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-all-other-list > ul > li > div {
+    font-size: 12px;
+    line-height: 17px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-all-other-list > ul > li > div a {
+    margin-right: 16px;
+    color: #333333;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-all-other-list > ul > li > div a:hover {
+    color: #F29600;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-price-select-content {
+    height: 67px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-advance-pay-content {
+    height: 65px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-monthly-supply-content {
+    height: 93px;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-recommend-content {
+    height: 79px;
+    border-bottom: none;
+}
+.home-nav-con .home-nav .home-conditional-select-box .home-other-select-box .home-recommend-content > div > a:first-of-type {
+    color: #f29718;
+}
+/* 条件选择 end */
+
+/* 轮播图 start */
+.home-nav-con .home-nav #banner-swiper {
+    float: left;
+    margin: 0 10px;
+    width: 650px;
+    height: 500px;
+}
+.home-nav-con .home-nav #banner-swiper .swiper-wrapper .swiper-slide a {
+    display: block;
+    width: 650px;
+    height: 500px;
+}
+.home-nav-con .home-nav #banner-swiper .swiper-wrapper .swiper-slide a img {
+    display: block;
+    width: 650px;
+    height: 500px;
+    border: none;
+}
+/* 轮播图 end */
+/* 帮您选车 start */
+.home-nav-con .home-nav .home-help-select-car {
+    float: left;
+    padding-top: 39px;
+    padding: 39px 34px 0;
+    width: 200px;
+    height: 309px;
+    border: 1px solid #E6E6E6;
+}
+.home-nav-con .home-nav .home-help-select-car .home-help-caption {
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #F29718;
+}
+.home-nav-con .home-nav .home-help-select-car .home-help-tips {
+    margin: 4px 0 29px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4A4a4A;
+}
+.home-nav-con .home-nav .home-help-select-car .home-phone-text {
+    padding-bottom: 15px;
+    height: 36px;
+}
+.home-nav-con .home-nav .home-help-select-car .home-code-text {
+    position: relative;
+    padding-bottom: 12px;
+    height: 36px;
+}
+.home-nav-con .home-nav .home-help-select-car input {
+    display: block;
+    padding-left: 10px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    background: #EFF0F4;
+    border-radius: 4px;
+    border: 1px solid #EFF0F4;
+    outline: none;
+}
+.home-nav-con .home-nav .home-help-select-car input.err {
+    border: 1px solid #E4393C;
+    background: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+}
+.home-nav-con .home-nav .home-help-select-car input.focus {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+}
+.home-nav-con .home-nav .home-help-select-car input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #9F9FA7;
+}
+.home-nav-con .home-nav .home-help-select-car input::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #9F9FA7;
+}
+.home-nav-con .home-nav .home-help-select-car input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #9F9FA7;
+}
+.home-nav-con .home-nav .home-help-select-car input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #9F9FA7;
+}
+.home-nav-con .home-nav .home-help-select-car #phone {
+    width: 188px;
+}
+.home-nav-con .home-nav .home-help-select-car #code {
+    padding-right: 90px;
+    width: 98px;
+}
+.home-nav-con .home-nav .home-help-select-car .home-code-text .home-get-code {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 89px;
+    height: 16px;
+    font-size: 14px;
+    color: #545662;
+    text-align: center;
+    line-height: 16px;
+    border-left: 1px solid #D3D3D3;
+}
+.home-nav-con .home-nav .home-help-select-car .home-code-text .home-get-code:hover {
+    color: #333333;
+}
+.home-nav-con .home-nav .home-help-select-car .home-code-text .home-get-code.active {
+    color: #C1C1C1;
+}
+.home-nav-con .home-nav .home-help-select-car .home-error-reminder {
+    line-height: 16px;
+    font-size: 12px;
+    color: #E4393C;
+}
+.home-nav-con .home-nav .home-help-select-car .home-help-submit {
+    padding-top: 12px;
+    height: 40px;
+}
+.home-nav-con .home-nav .home-help-select-car .home-help-submit .home-help-btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #F29718;
+    border-radius: 4px;
+}
+/* 帮您选车 end */
+/* 测试您的贷款额度 start */
+.home-nav-con .home-nav .home-test-loan-amount {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    width: 270px;
+    height: 140px;
+    background-image: url(../image/test-loan-amount@2x.png);
+    background-image: url(../image/test-loan-amount@1x.png) \9;
+    background-image: url(../image/test-loan-amount@2x.png) \9\0;
+    background-repeat: no-repeat;
+    background-size: 270px 140px;
+    background-color: #304265;
+}
+.home-nav-con .home-nav .home-test-loan-amount p:first-child {
+    position: absolute;
+    top: 22px;
+    left: 149px;
+    font-size: 26px;
+    line-height: 34px;
+    color: #ffffff;
+}
+.home-nav-con .home-nav .home-test-loan-amount p:last-child {
+    position: absolute;
+    top: 99px;
+    left: 163px;
+    width: 82px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    background: #E15C4D;
+    border-radius: 4px;
+}
+.home-nav-con .home-nav .home-test-loan-amount:hover p:last-child {
+    background: #FF7D6E;
+}
+.home-nav-con .home-nav .home-test-loan-amount p:last-child span {
+    position: absolute;
+    top: 9px;
+    left: 68px;
+    width: 4px;
+    height: 4px;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+}
+/* 测试您的贷款额度 end */
+/* 业务模块 start */
+.home-business-con {
+    padding-top: 10px;
+}
+.home-business-con .home-business-module {
+    margin: 0 auto;
+    width: 1200px;
+    height: 120px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.home-business-con .home-business-module > a {
+    float: left;
+    margin-right: 12px;
+    padding: 35px 0 0 40px;
+    width: 352px;
+    height: 85px;
+    color: #000000;
+    background-repeat: no-repeat;
+    background-position: 216px 15px;
+    background-size: 152px 90px;
+}
+.home-business-con .home-business-module > a:first-child {
+    background-image: url(../image/function-01@2x.png);
+    background-image: url(../image/function-01@1x.png) \9;
+    background-image: url(../image/function-01@2x.png) \9\0;
+}
+.home-business-con .home-business-module > a:nth-child(2) {
+    background-image: url(../image/function-02@2x.png);
+    background-image: url(../image/function-02@1x.png) \9;
+    background-image: url(../image/function-02@2x.png) \9\0;
+}
+.home-business-con .home-business-module > a:last-child {
+    margin-right: 0;
+    background-image: url(../image/function-03@2x.png);
+    background-image: url(../image/function-03@1x.png) \9;
+    background-image: url(../image/function-03@2x.png) \9\0;
+}
+.home-business-con .home-business-module > a > p:first-child {
+    height: 26px;
+    line-height: 26px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #413b5b;
+}
+.home-business-con .home-business-module > a > p:first-child:hover {
+    color: #F29600;
+}
+.home-business-con .home-business-module > a > p:first-child span {
+    font-size: 21px;
+}
+.home-business-con .home-business-module > a > p:nth-child(2) {
+    margin-top: 12px;
+    height: 18px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.home-business-con .home-business-module > a > p:nth-child(2) span { 
+    color: #ff9800;
+}
+/* 业务模块 end */
